@@ -1,4 +1,4 @@
-## SORING NUMBER 1 : QUICKSORT
+## SORTING NUMBER 1 : QUICKSORT
 ### Quick Sort implementation in C++
 Implemented Using vectors in C++ in Codeblocks Ide (MinGW gcc compiler)
 #### Header Files Included:
