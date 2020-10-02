@@ -1,5 +1,4 @@
-## SORTING TECHNIQUE : QUICKSORT
-### Quick Sort implementation in C++
+### Quick Sort Implementation in C++
 Implemented Using vectors in C++ in Codeblocks IDE (MinGW GCC Compiler)
 
 #### Functions:

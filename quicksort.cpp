@@ -55,7 +55,7 @@ int main()
     }
     quicksort(0,s-1,0);
     cout<<"\n Sorted Array is:\n";
-   print_vector();
+    print_vector();
     return 0;
 }
 
