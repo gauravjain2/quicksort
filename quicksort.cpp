@@ -2,17 +2,23 @@
 #include<vector>
 using namespace std;
 vector<int> arr;
+
+//used to print the vector elements
 void print_vector(){
     for(int x=0;x<arr.size();x++){
         cout<<"\t"<<arr[x];
     }
 }
+
+//used to swap two vector elements
 void swapp(int l, int t)
 {
     int temp=arr[l];
     arr[l]=arr[t];
     arr[t]=temp;
 }
+
+//with the help of pivot vector in partitoned
 int partition_array(int left,int right,int pivot)
 {
     while(!(left==right && right==pivot && left==pivot))
@@ -32,6 +38,8 @@ int partition_array(int left,int right,int pivot)
     }
     return pivot;
 }
+
+//sorting algorithm using recursion
 void quicksort(int left,int right,int pivot)
 {
     if(left>=right)
