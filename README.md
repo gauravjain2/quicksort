@@ -23,3 +23,12 @@ Implemented Using vectors in C++ in Codeblocks Ide (MinGW gcc compiler)
   
 => main
     ->Get the vector from the user, calls the quicksort function on the vector and displays the sorted vector.
+
+Note:
+
+There are many different versions of quickSort that pick pivot in different ways.
+
+1.Always pick first element as pivot.
+2.Always pick last element as pivot (implemented below)
+3.Pick a random element as pivot.
+4.Pick median as pivot.
